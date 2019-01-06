@@ -1,0 +1,26 @@
+{
+  "bin": {
+    "bondom-server": "dist/index.js"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "commander": "^2.19.0",
+    "koa": "^2.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-flow": "^7.0.0",
+    "flow-bin": "^0.89.0"
+  },
+  "scripts": {
+    "build": "babel --delete-dir-on-start src -d dist"
+  },
+  "name": "server",
+  "version": "0.1.0-beta-1",
+  "main": "dist/index.js",
+  "repository": "git@github.com:vireakkeosokvibol/server.git",
+  "author": "VIREAK KEOSOKVIBOL",
+  "license": "MIT"
+}
